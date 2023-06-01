@@ -1,0 +1,20 @@
+{
+  "name": "free-gps-location",
+  "version": "1.0.0",
+  "description": "This npm package provides free gps location.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panwar2001/free-gps-location.git"
+  },
+  "author": "Ayush Panwar",
+  "license": "ODbL-1.0",
+  "bugs": {
+    "url": "https://github.com/panwar2001/free-gps-location/issues"
+  },
+  "homepage": "https://github.com/panwar2001/free-gps-location#readme",
+   "type": "module"
+}

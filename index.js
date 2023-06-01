@@ -1,6 +1,6 @@
-export default function  getCurrentLocation(){
+const  getCurrentLocation=async ()=>{
     if (navigator?.geolocation) {
-        navigator.geolocation.getCurrentPosition(async (position)=> {
+          const position = navigator.geolocation.getCurrentPosition();
           const headers = {
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Methods': 'GET',
@@ -21,7 +21,6 @@ export default function  getCurrentLocation(){
             countryCode:Loc.address.country_code
         }
           return currentLocation;
-        });  
       } else {  
         alert("Geolocation is not supported by this browser.(Hint: Either navigator or geolocation is not supported )");  
       }

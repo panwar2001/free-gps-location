@@ -1,3 +1,4 @@
+//Get Current location 
 const  getCurrentLocation=async ()=>{
     if (navigator?.geolocation) {
           const position = navigator.geolocation.getCurrentPosition();

@@ -2,7 +2,7 @@
 ```
 import getCurrentLocation from 'free-gps-location';
 
-getCurrentLocation.then((loc)=>{
+getCurrentLocation().then((loc)=>{
 /*
 code here ...
 const locationId=loc.placeId;

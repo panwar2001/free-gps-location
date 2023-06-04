@@ -1,4 +1,4 @@
-name: npm loation package
+name: npm location package
 
 on:
   push:
@@ -16,6 +16,8 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
+      - run: git config --global user.name "Ayush panwar"
+      - run: git config --global user.email "ayushpanwar691@gmail.com"
       - run: npm ci
       - run: npm version patch
       - run: npm publish

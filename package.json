@@ -1,6 +1,6 @@
 {
   "name": "free-gps-location",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This npm package provides free gps location.",
   "main": "index.js",
   "scripts": {

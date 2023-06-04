@@ -1,6 +1,6 @@
 //Get Current location 
 const  getCurrentLocation=async ()=>{
-    if (navigator?.geolocation) {
+    if (navigator?.geolocation) {  //client side navigator
           const position = navigator.geolocation.getCurrentPosition();
           const headers = {
             'Access-Control-Allow-Origin': '*',
